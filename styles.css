@@ -32,10 +32,14 @@ p{
 
 
 /* header-section */
-
+i.kahini{
+    color: white;
+    display: none;
+}
 .brand-name{
     color: rgb(230, 83, 60);
     font-style: italic;
+    font-size: 1.6rem;
 }
 .nav{
     /* max-width: 80%; */
@@ -122,25 +126,28 @@ h2.header-card-one-title {
 }
 
 .header-card-one {
-    background: #80808099;
+    filter: blur(px);
+    background: #8080807d;
     max-width: 140px;
     /* position: absolute; */
     border-radius: 8px;
     padding: 12px 17px;
-  
     transform: translate(205px, 206px);
-    
 }
 .header-card-two {
     max-width: 150px;
-    background: #8080806b;
+    /* backdrop-filter: blur(20px); */
+    /* background: transparent; */
+    backdrop-filter: blur(20px);
+    background: rgb(48 48 48 / 10%);
     padding: 10px 0px;
     display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     object-fit: contain;
     border-radius: 8px;
     align-items: center;
     gap: 10px;
-    transform: translate(-25px, -132px);
+    transform: translate(-70px, -132px);
 }
 .span {
     width: 35px;
@@ -377,8 +384,18 @@ p.copyright {
     flex-direction: column;
     max-width: 100%;
 }
-.nav, .habits-image-container{
+.habits-image-container{
     flex-direction: column;
+}
+.nav{
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.nav-ul{
+    display: none;
+}
+i.kahini{
+    display: block;
 }
 .header-text{
     max-width: 100%;
