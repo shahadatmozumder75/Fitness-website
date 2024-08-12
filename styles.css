@@ -96,7 +96,7 @@ img{
 }
 
 h1.header-text-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 1.2;
 }
@@ -366,7 +366,13 @@ p.copyright {
         max-width: 90%;
         margin: 0 auto;
     }
-
+    .shape{
+        font-size: 2rem;
+    }
+    h1.header-text-title{
+        font-size: 2rem;
+        text-align: left;
+    }
 .header-container{
     flex-direction: column;
     max-width: 100%;
