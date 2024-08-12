@@ -232,16 +232,16 @@ p.habits-text-desc {
 }
 
 div.run-image {
-    background: url('images/run.jpg');
-    /* background-repeat: no-repeat; */
-    background-position: center;
-    background-size: cover;
-    width: 370px;
-    max-width: 100%;
-    height: 220px;
-    border-radius: 12px;
+   max-width: 40%;
+   /* object-fit: cover; */
 }
 
+
+div.run-image img{
+    border-radius: 12px;
+    object-fit: none;
+    object-position: 65% 30%;
+}
 
 h1.run-text-title {
     font-size: 2rem;
@@ -409,6 +409,12 @@ header .header-container .btn{
     max-width: 80%;
     margin:100px auto;
    
+}
+div.run-image{
+    max-width: 100%;
+}
+div.run-image img{
+    object-fit: cover;
 }
 .habits-text, .header-container-images, .habits-image, .habits-text, .run-text, p.run-text-desc, .run-image, .footer-fitness{
     max-width: 100%;
