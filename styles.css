@@ -21,6 +21,7 @@ h1,h2,h3,h4,h5,h6,p{
 p{
     font-size: 0.7rem;
     opacity: 0.5;
+    font-weight: 400;
 }
 .shape{
     font-family: 'Miama', sans-serif;
@@ -263,6 +264,120 @@ p.run-text-desc {
     margin: 20px 0px;
 }
 
+/* bmi calculator */ 
+
+
+table,th,td,tr{
+    border-collapse: collapse;
+    border: 1px solid rgb(255 255 255 / 15%);
+    width: 275px;
+    height: 35px;
+    text-align: center;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+}
+th{
+    color: white;
+    /* opacity: 0.7; */
+}
+.box-container{
+    background: rgb(34, 34, 34);
+    overflow: hidden;
+}
+.calculate-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+select#factor {
+    max-width: 100%;
+    grid-span: 2;
+    grid-column: 1 / span;
+    grid-column: 1/3;
+}
+
+select#factor {}
+
+button.btn.input {
+    margin-top: 30px;
+}
+.calculate-box{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.calculate-text {
+    max-width: 50%;
+    margin-bottom: 90px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+}
+section#calculate {
+    margin-bottom: 90px;
+}
+
+
+h1.calculate-title {
+    font-size: 2.1rem;
+    font-weight: 900;
+}
+
+p.calculate-desc {
+    opacity: 0.4;
+    max-width: 90%;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+h3.chart-title {
+    margin-bottom: 40px;
+}
+
+h3.input-title {
+    /* margin-bottom: 50px; */
+}
+
+p.input-desc {
+    margin-bottom: 33px;
+    max-width: 90%;
+    opacity: 0.4;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+
+section#calculate {
+    margin-bottom: 90px;
+}
+input {
+    border-radius: 8px;
+    margin: 5px;
+    color: rgb(255 255 255 / 93%);
+    border: none;
+    padding: 11px 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+
+.input-field {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.calculate-box {
+    display: flex;
+}
+
+select {
+    padding: 10px 8px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    margin: 5px;
+    /* color: white; */
+    color: rgb(255 255 255 / 33%);
+}
+
 
 /* teams-section */
 
@@ -447,6 +562,27 @@ div.run-image img{
     grid-template-columns: repeat(1,1fr);
 
 }
+
+
+.calculate-box{
+    flex-direction: column;
+    max-width: 90%;
+    padding: 25px 0px;
+    margin: 0 auto;
+}
+.calculate-input{
+    margin-top: 50px;
+}
+.calculate-text{
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.calculate-desc{
+   
+font-size: 1rem;
+}
+
 
 
 .run-text .btn{
