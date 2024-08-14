@@ -668,6 +668,7 @@ section#join{
 }
 .calculate-input{
     margin-top: 50px;
+    overflow: hidden;
 }
 .calculate-text{
     max-width: 90%;
@@ -678,9 +679,7 @@ section#join{
    
 font-size: 1rem;
 }
-.calculate-input{
-    overflow: hidden;
-}
+
 
 
 .run-text .btn{
