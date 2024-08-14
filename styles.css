@@ -40,7 +40,7 @@ i.kahini{
 .brand-name{
     color: rgb(230, 83, 60);
     font-style: italic;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 .nav{
     /* max-width: 80%; */
@@ -624,8 +624,7 @@ header .header-container .btn{
 #run{
     flex-direction: column;
     max-width: 80%;
-    margin: 0 auto;
-    margin-bottom: 70px;
+    margin: 50px auto;
 }
 div.run-image{
     max-width: 100%;
@@ -645,7 +644,7 @@ div.run-image img{
 
 section#join{
     max-width: 80%;
-    
+    margin: 0 auto;
 }
 .flex-first{
     flex-direction: column;
@@ -657,12 +656,8 @@ section#join{
     width: 90%;
 }
 
-.calculate-input{
-    overflow: hidden;
-}
-section#calculate{
-    margin-top: 80%;
-}
+
+
 .calculate-box{
     flex-direction: column;
     max-width: 90%;
