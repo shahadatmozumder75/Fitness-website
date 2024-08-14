@@ -227,6 +227,85 @@ p.habits-text-desc {
     align-items: center;
 }
 
+
+
+
+
+
+section#join {
+    max-width: 80%;
+    margin: 90px auto;
+    /* margin-top: 50px; */
+}
+
+h1.join-title {
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 900;
+}
+
+i.join{
+    color: rgb(230 83 60 / 89%);
+    font-size: 35px;
+    /* margin-right: 22px; */
+}
+
+p.join-box-desc {
+    max-width: 90%;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    opacity: 0.7;
+}
+
+.join-box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+h4.join-box-title {
+    margin: 10px 0px;
+}
+
+.join-box-container{
+    /* display: grid; */
+    margin-top: 50px;
+    grid-template-columns: repeat(2 ,1fr);
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* align-content: space-between; */
+}
+p.join-box-desc {
+    max-width: 100%;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    opacity: 0.7;
+}
+
+.join-box {
+    display: flex;
+    gap: 20px;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+h4.join-box-title {
+    margin: 10px 0px;
+}
+.flex-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 #run{
     max-width: 80%;
     margin: 100px auto;
@@ -545,8 +624,7 @@ header .header-container .btn{
 #run{
     flex-direction: column;
     max-width: 80%;
-    margin:100px auto;
-   
+    margin: 50px auto;
 }
 div.run-image{
     max-width: 100%;
@@ -562,6 +640,22 @@ div.run-image img{
     grid-template-columns: repeat(1,1fr);
 
 }
+
+
+section#join{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.flex-first{
+    flex-direction: column;
+}
+.flex-second{
+    flex-direction: column;
+}
+.join-box{
+    width: 90%;
+}
+
 
 
 .calculate-box{
