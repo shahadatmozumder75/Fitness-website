@@ -385,7 +385,9 @@ button.btn.input {
     max-width: 80%;
     margin: 0 auto;
 }
-
+.calculate-input{
+    overflow: hidden;
+}
 .calculate-text {
     max-width: 50%;
     margin-bottom: 90px;
