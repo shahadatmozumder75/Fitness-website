@@ -624,7 +624,8 @@ header .header-container .btn{
 #run{
     flex-direction: column;
     max-width: 80%;
-    margin: 50px auto;
+    margin: 0 auto;
+    margin-bottom: 70px;
 }
 div.run-image{
     max-width: 100%;
@@ -644,7 +645,7 @@ div.run-image img{
 
 section#join{
     max-width: 80%;
-    margin: 0 auto;
+    
 }
 .flex-first{
     flex-direction: column;
@@ -656,8 +657,12 @@ section#join{
     width: 90%;
 }
 
-
-
+.calculate-input{
+    overflow: hidden;
+}
+section#calculate{
+    margin-top: 80%;
+}
 .calculate-box{
     flex-direction: column;
     max-width: 90%;
